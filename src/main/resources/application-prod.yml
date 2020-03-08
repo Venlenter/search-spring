@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /search_api
+  port: 8083
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cmxt?useUNicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: 111111
+  jpa:
+    database: mysql
